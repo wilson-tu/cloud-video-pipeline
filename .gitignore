@@ -1,0 +1,25 @@
+# Videos / processing output
+input/
+output/
+
+# Lambda deployment artifact
+lambda.zip
+
+# AWS-generated / local infrastructure files
+task-from-aws.json
+task-definition.json
+
+# IAM policy containing account-specific ARNs
+lambda-ecs-policy.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
