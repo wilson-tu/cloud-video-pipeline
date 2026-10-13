@@ -23,3 +23,7 @@ Thumbs.db
 .env.*
 *.pem
 *.key
+
+# Local AWS IAM setup files
+github-ecr-policy.json
+github-trust-policy.json
